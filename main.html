@@ -201,8 +201,15 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage2']" v-bind:class="{isClear:clear['stage2']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">未完成</div>
+              <div class="clear-message__title">STAGE：2　うまく弱点をつくことができ、ブレーカーを落とすことに成功した</div>
+              <div class="clear-message__content">相棒「やっぱお前すげーよ！　さすが俺の相棒だな！」<br>
+                こういう時だけ調子のいいやつだ。さっさと脱出して欲しい。<br>
+                相棒「脱出ルートはさっきと同じでいいんだよな？　それじゃ、さくっと脱出して焼肉でも食いに行こうぜ！　HAHAHA！」<br>
+                <br>
+                ここまでの道のりは順調だ。マップデータの通りだとこのさきが脱出経路になっているはずだが……<br>
+                
+               
+              </div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
