@@ -302,6 +302,9 @@ button {
   background-color: #F00;
 }
 
+.section-title--keycolor--Message{
+  background-color: #000000;
+
 .section-title--story {
   width: 330px;
   margin: 0 auto 20px;
