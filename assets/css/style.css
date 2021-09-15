@@ -164,6 +164,7 @@ button {
   padding: 20px 30px;
   position: relative;
   cursor: pointer;
+  color: #000000;
 }
 
 .card__content {
@@ -173,6 +174,7 @@ button {
   padding: 20px 30px;
   margin: 0;
   position: relative;
+  color: #000000;
 }
 
 .card__content::before {
