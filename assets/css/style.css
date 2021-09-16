@@ -182,7 +182,7 @@ button {
   content: '';
   width: calc(100% - 60px);
   height: 7px;
-  background-color: #fcee21;
+  background-color: black;
   position: absolute;
   top: -10px;
   left: 30px;
