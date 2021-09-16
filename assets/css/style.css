@@ -83,7 +83,7 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  background-color: darkgrey;
+  background-color: black;
   color: brown;
   width: 287px;
   height: 55px;
@@ -350,7 +350,7 @@ button {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  background-color: #006837;
+  background-color: black;
   color: #fff;
   font-size: 24px;
   line-height: 1.54167;
