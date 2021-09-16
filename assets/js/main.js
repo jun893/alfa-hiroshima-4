@@ -99,8 +99,8 @@ app.component('answer-input', {
   data: function () {
     return {
       /* 送信ボタン上下に表示されるメッセージ */
-      okMessage: '正解！',
-      ngMessage: 'そのキーワードは違うようだぞ！？',
+      okMessage: 'さすが俺の相棒！！',
+      ngMessage: 'おいおい、まさかこんな問題が解けないってことないよな?w',
       message: '',
       inputAnswer: '',
     }
