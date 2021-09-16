@@ -246,7 +246,7 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: rgba(230,230,230,0.6);
+  background-color: rgba(230,230,230,0.5);
 }
 
 .bg-color--subcolor {
@@ -254,7 +254,7 @@ button {
 }
 
 .bg-color--gray {
-  background-color: rgba(230,230,230,0.6);
+  background-color: rgba(230,230,230,0.5);
 }
 
 .bg-color--gray--attention{
