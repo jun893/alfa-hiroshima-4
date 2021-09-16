@@ -409,6 +409,7 @@ button {
 
 .footer p:first-child {
   margin-top: 0;
+  background-color: #e6e6e6;
 }
 
 .footer p:last-child {
@@ -507,6 +508,10 @@ button {
 ********************/
 .text-center {
   text-align: center;
+}
+
+.text-center-footer{
+  color: black;
 }
 
 .text-left {
