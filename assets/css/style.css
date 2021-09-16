@@ -294,7 +294,7 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: darkgrey;
+  background-color: black;
 }
 
 .section-title--keycolorlight .section-title__stage {
@@ -302,7 +302,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: darkgrey;
+  background-color: black;
 }
 
 .section-title--keycolor--Message{
