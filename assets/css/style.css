@@ -84,7 +84,7 @@ button {
   border: none;
   margin: 0 auto;
   background-color: #006837;
-  color: #F00;
+  color: brown;
   width: 287px;
   height: 55px;
 }
@@ -294,7 +294,7 @@ button {
 }
 
 .section-title--keycolorlight {
-  background-color: #8cc63f;
+  background-color: darkgrey;
 }
 
 .section-title--keycolorlight .section-title__stage {
@@ -302,7 +302,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #F00;
+  background-color: darkgrey;
 }
 
 .section-title--keycolor--Message{
