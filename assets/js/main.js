@@ -100,7 +100,7 @@ app.component('answer-input', {
     return {
       /* 送信ボタン上下に表示されるメッセージ */
       okMessage: 'さすが俺の相棒！！',
-      ngMessage: 'おいおい、まさかこんな問題が解けないってことないよな?w',
+      ngMessage: '「おいおい、まさかこんな問題が解けないってことないよな?w」',
       message: '',
       inputAnswer: '',
     }
