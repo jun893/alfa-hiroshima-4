@@ -511,6 +511,11 @@ button {
   text-align: center;
 }
 
+.text-center-footer {
+    color: black;
+    text-align: center;
+}
+
 .text-left {
   text-align: left;
 }
