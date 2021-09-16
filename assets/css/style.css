@@ -246,7 +246,7 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #39b54a;
+  background-color: rgba(230,230,230,0.6);
 }
 
 .bg-color--subcolor {
@@ -254,9 +254,12 @@ button {
 }
 
 .bg-color--gray {
-  background-color: #e6e6e6;
+  background-color: rgba(230,230,230,0.6)；
 }
 
+bg-color--gray--attention{
+  background-color: #e6e6e6;
+}
 /*********************
 * title
 **********************/
