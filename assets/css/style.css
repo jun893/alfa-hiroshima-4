@@ -250,7 +250,7 @@ button {
 }
 
 .bg-color--subcolor {
-  background-color: #d9e021;
+  background-color: #fff;
 }
 
 .bg-color--gray {
@@ -321,7 +321,7 @@ button {
   line-height: 1.06667;
   margin: 0;
   padding-bottom: 15px;
-  color: #006837;
+  color: black;
 }
 
 .section-title--border::after {
@@ -330,7 +330,7 @@ button {
   left: calc(50% - 95px);
   display: block;
   content: '';
-  background-color: #fff;
+  background-color: #000;
   height: 2.6px;
   width: 190px;
 }
@@ -512,6 +512,11 @@ button {
 ********************/
 .text-center {
   text-align: center;
+}
+
+.text-center-hint{
+  text-align: center;
+  color: #000;
 }
 
 .text-center-footer {
