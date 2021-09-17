@@ -111,7 +111,7 @@ app.component('answer-input', {
         <input type="text" v-model="inputAnswer" placeholder="半角数字またはひらがなで入力してください">
       </div>
       <p v-if="message === ngMessage" class="err-message">{{ message }}</p>
-      <button v-on:click="judgement(inputAnswer)">送信</button>
+      <button v-on:click="judgement(inputAnswer)">Enter</button>
       <p v-if="message === okMessage" class="err-message">{{ message }}</p>
     </div>`,
   methods: {
