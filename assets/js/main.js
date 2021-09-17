@@ -108,7 +108,7 @@ app.component('answer-input', {
   template: `
     <div class="answer__container">
       <div class="answer">
-        <input type="text" v-model="inputAnswer" placeholder="ここに答えを入力しよう">
+        <input type="text" v-model="inputAnswer" placeholder="半角数字またはひらがなで入力してください">
       </div>
       <p v-if="message === ngMessage" class="err-message">{{ message }}</p>
       <button v-on:click="judgement(inputAnswer)">送信</button>
