@@ -397,14 +397,14 @@ button {
 }
 
 .header__logo {
-  width: 330px;
-  height: 42px;
+  font-size: 20px;
+ color: #fff;
 }
 
 .header__name {
   font-size: 20px;
   line-height: 1.1;
-  color: #000;
+  color: #fff;
 }
 
 .footer {
