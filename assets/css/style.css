@@ -379,7 +379,7 @@ button {
 * header
 *****************/
 .header {
-  background-color: #fff;
+  background-color: #000;
   height: 60px;
 }
 
@@ -404,6 +404,7 @@ button {
 .header__name {
   font-size: 20px;
   line-height: 1.1;
+  color: #000;
 }
 
 .footer {
