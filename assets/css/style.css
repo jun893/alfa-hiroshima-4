@@ -542,7 +542,7 @@ button {
 .boxes {
   margin: auto;
   padding: 50px;
-  background: #484848;
+  background: #rgba(230,230,230,0.5;
 }
 input[type="checkbox"] { display: none; }
 
