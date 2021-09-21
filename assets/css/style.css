@@ -516,6 +516,12 @@ button {
   text-align: center;
 }
 
+.text-center-nazo2{
+  background-image: url("../images/セキュリティ.jpg");
+  text-align: center;
+}
+  
+
 .text-center-hint{
   text-align: center;
   color: #000;
