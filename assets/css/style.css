@@ -516,6 +516,11 @@ button {
   text-align: center;
 }
 
+.text-center-last {
+  text-align: center;
+  background-color: #000;
+}
+
 .text-center-nazo2{
   text-align: center;
 }
