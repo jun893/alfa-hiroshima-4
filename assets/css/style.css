@@ -598,3 +598,7 @@ input[type="checkbox"]:checked + label:before {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+.image-size{
+  width: 700px;
+}
