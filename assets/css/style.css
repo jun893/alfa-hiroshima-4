@@ -600,5 +600,6 @@ input[type="checkbox"]:checked + label:before {
 }
 
 .image-size{
-  width: 700px;
+  margin: auto;
+  width: 550px;
 }
