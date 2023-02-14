@@ -98,31 +98,12 @@ Youtube貼り付けここまで -->
                 ……ドローンの電源がついた。<br>
                 脱出ができたから、その連絡するためにドローンの電源を入れたんだろう。きっと。多分。
               </div>
-              <button v-on:click="nextStage('stage1')" onclick="location.href='#security'" class="clear-message__btn btn">……しかし！<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
+              <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">……しかし！<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
         </section>
         <!-- STAGE1クリア画面　ここまで -->
-
-      </div>
-      <!-- STAGE1　ここまで -->
-      <div v-if="next[7stage1']" id="security">
-      <div class="container">
-            <div class="clear-message">
-              <div class="clear-message__title">MISSION クリア！</div>
-              <div class="clear-message__content">見事パスワードを解読し、マップデータを入手することができたので<br>
-                マップデータから安全な脱出ルートを割り出して、相棒に伝えた。<br>
-                相棒「よくやった！さすがは俺の相棒だぜ。そんじゃ脱出してきヤースw」<br>
-                 <br>
-              　　　　接続が切れた。どうやら相棒がドローンの電源を切ったようだ。<br>
-                 <br>
-                そろそろ脱出している頃だろうか。今回はいつもより早く終わってよかった。<br>あいつが帰ってくるまで暇だし、コーヒーでも飲んでゆっくりしていよう。<br>
-                ……ドローンの電源がついた。<br>
-                脱出ができたから、その連絡するためにドローンの電源を入れたんだろう。きっと。多分。
-              </div>
-              <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">……しかし！<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
-            </div>
-        </div>
+          
       <!-- STAGE2　ここから -->
       <!---------------------------------------------------------------------
         クリア画面の「次のステージへ」ボタンをクリックしたら表示します。
