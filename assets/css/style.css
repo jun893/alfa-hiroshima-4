@@ -411,7 +411,7 @@ button {
   width: 15%;
   margin-right: auto;
 }
-}
+
 
 .header__name {
   font-size: 20px;
@@ -422,6 +422,7 @@ button {
 .footer {
   font-size: 16px;
   background-color: #e6e6e6;
+	width: 15%;
 }
 
 .footer p:first-child {
