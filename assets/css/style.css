@@ -421,8 +421,7 @@ button {
 
 .footer {
   font-size: 16px;
-  background-color: #e6e6e6;
-	width: 15%;
+  background-color: #e6e6e6;;
 }
 
 .footer p:first-child {
