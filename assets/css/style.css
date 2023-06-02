@@ -424,6 +424,11 @@ button {
   background-color: #e6e6e6;;
 }
 
+.footer_img {
+	width: 15%;
+	margin: auto;
+}
+
 .footer p:first-child {
   margin-top: 0;
   background-color: #e6e6e6;
