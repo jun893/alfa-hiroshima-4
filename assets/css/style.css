@@ -387,6 +387,11 @@ button {
 .header {
   background-color: #000;
   height: 60px;
+  transition: all 0.3s ease;
+	position: fixed;
+	top: 0;
+	left:0;
+	right: 0;
 }
 
 .header .container {
