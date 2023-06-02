@@ -403,8 +403,9 @@ button {
 }
 
 .header__logo {
-  font-size: 40px;
- color: #fff;
+  width: 15%;
+  margin-right: auto;
+}
 }
 
 .header__name {
