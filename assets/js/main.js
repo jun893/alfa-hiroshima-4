@@ -129,22 +129,4 @@ app.component('answer-input', {
 
 app.mount('#stage')
 
-/****************
- * へっだーのあれ
-****************/
 
-jQuery(function($){
-  var hsize = $('header').innerHeight();//paddingを含めた高さを取得
-  var pos = 0;
-  $(window).on('scroll', function(){
-    var currentPos = $(this).scrollTop();
-    if(currentPos < pos || currentPos == 0 ){
-    //上スクロール時の処理(header引っ込める)
-    $("header").css({"top":0});
-    }else{
-    //下スクロール時の処理(header出す)
-    $("header").css({'top' : "-" + hsize + "px" });
-    }
-    pos = currentPos;//現在地保存
-  });
-});
