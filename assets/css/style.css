@@ -35,12 +35,6 @@ body {
 
 img {
   width: 100%;
-  margin: auto;
-  display: block;
-}
-
-video{
-  width: 100%;
 }
 
 figure {
@@ -387,11 +381,6 @@ button {
 .header {
   background-color: #000;
   height: 60px;
-  transition: all 0.3s ease;
-	position: fixed;
-	top: 0;
-	left:0;
-	right: 0;
 }
 
 .header .container {
@@ -408,10 +397,9 @@ button {
 }
 
 .header__logo {
-  width: 15%;
-  margin-right: auto;
+  font-size: 40px;
+ color: #fff;
 }
-
 
 .header__name {
   font-size: 20px;
@@ -421,12 +409,7 @@ button {
 
 .footer {
   font-size: 16px;
-  background-color: #e6e6e6;;
-}
-
-.footer_img {
-	width: 15%;
-	margin: auto;
+  background-color: #e6e6e6;
 }
 
 .footer p:first-child {
